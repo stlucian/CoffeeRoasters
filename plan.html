@@ -1,0 +1,647 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-2.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="accordion.css">
+  <link rel="stylesheet" href="modal.css">
+
+  <title>Coffeeroasters | Subscription site</title>
+</head>
+
+<body>
+
+  <nav>
+    <div class="container">
+      <input id="responsive-menu" type="checkbox">
+      <label for="responsive-menu"><img src="../starter-code/assets/shared/desktop/logo.svg" alt="coffee-roaster-logo">
+        <span id="menu-icon"></span></label>
+      <div id="overlay"></div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="plan.html">Create Your Plan</a></li>
+      </ul>
+
+    </div>
+  </nav>
+  <div class="first-container">
+
+
+    <picture>
+      <source srcset="../starter-code/assets/plan/mobile/image-hero-blackcup.jpg" media="(max-width: 650px)">
+      <source srcset="../starter-code/assets/plan/tablet/image-hero-blackcup.jpg" media="(max-width: 1000px)">
+      <img src="../starter-code/assets/plan/desktop/image-hero-blackcup.jpg" alt="" class="image-hero">
+    </picture>
+
+
+    <div class="image-text-overlay">
+
+
+      <div class="heading">Create a plan</div>
+
+      <div class="start-mornings">Build a subscription plan that best fits your needs. We offer an assortment of the
+        best
+        artisan coffees from around the globe delivered fresh to your door.</div>
+    </div>
+
+  </div>
+
+
+
+  <div class="fourth-container fourth-container-2">
+
+    <hr class="line-two">
+
+
+    <div class="box-container-2 box-container-22">
+
+
+
+      <div class="first-box bring-front">
+        <div class="circle-two"></div>
+        <div class="number-box curly-font">01</div>
+        <div class="picking picking-2 curly-font">Pick your coffee</div>
+
+        <div class="box-description-2 box-description-22">Select from our evolving range of artisan coffees. Our beans
+          are ethically
+          sourced
+          and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</div>
+
+      </div>
+
+
+      <div class="second-box bring-front">
+        <div class="circle-two"></div>
+        <div class="number-box curly-font">02</div>
+        <div class="picking picking-2 curly-font">Choose the frequency</div>
+
+        <div class="box-description-2 box-description-22">Customize your order frequency, quantity, even your roast
+          style and grind type.
+          Pause, skip or cancel your subscription with no commitment through our online portal.</div>
+
+      </div>
+
+      <div class="third-box bring-front">
+
+        <div class="circle-two"></div>
+        <div class="number-box curly-font">03</div>
+        <div class="picking picking-2 curly-font">Receive and enjoy!</div>
+
+        <div class="box-description-2 box-description-22">We ship your package within 48 hours, freshly roasted. Sit
+          back and enjoy
+          award-winning
+          world-class coffees curated to provide a distinct tasting experience.</div>
+
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+  <!-- <button class="accordion">Section 1</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, enim.</p>
+</div>
+
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti delectus voluptatum cumque! Laborum ea debitis aliquam. Unde amet corporis odio dolorem suscipit blanditiis, ad fugiat molestiae doloremque optio ipsa quam.</p>
+</div>
+
+<button class="accordion">Section 3</button>
+<div class="panel">
+
+  <input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><br>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label>
+
+ 
+</div> -->
+  <div class="left-right-container">
+
+
+
+
+    <div class="left-side test-1">
+
+
+      <div class="side-center">
+        <div>
+          <!-- <button class="accordion-open curly-font side-button" id="what-am-i">01 Preferences</button> -->
+          <button class="curly-font side-button toggle-tab" data-tab="1"><span> <span class="number-padding">01</span>
+              Preferences</span></button>
+        </div>
+
+        <div>
+          <!-- <button class="curly-font side-button">02 Bean type</button> -->
+          <button class="curly-font side-button toggle-tab" data-tab="2"><span> <span class="number-padding">02</span>
+              Bean type</span></button>
+        </div>
+
+        <div>
+          <!-- <button class="curly-font side-button">03 Quantity</button> -->
+          <button class="curly-font side-button toggle-tab" data-tab="3"><span> <span class="number-padding">03</span>
+              Quantity</span></button>
+        </div>
+
+        <div>
+          <!-- <button class="curly-font side-button">04 Grind option</button> -->
+          <button class="curly-font side-button toggle-tab" data-tab="4"><span> <span class="number-padding">04</span>
+              Grind option</span></button>
+        </div>
+
+        <div>
+          <!-- <button class="curly-font side-button">05 Deliveries</button> -->
+          <button class="curly-font side-button toggle-tab" data-tab="5"><span> <span class="number-padding">05</span>
+              Deliveries</span></button>
+        </div>
+      </div>
+      <!-- 01 Preferences
+      02 Bean type
+      03 Quantity
+      04 Grind option
+      05 Deliveries -->
+      <!-- <div class="idk-uh">hello</div>
+      <div>nigga</div>
+
+      <button class="toggle-tab" data-tab="1"><span>Open/Close Tab1</span></button>
+      <button class="toggle-tab" data-tab="2"><span>Open/Close Tab2</span></button>
+ -->
+
+
+
+    </div>
+
+
+    <div class="right-side test-2">
+
+
+
+      <!-- FIRST OPTION    -->
+
+
+      <!-- <input type="text" name="txtprice" id="txtprice" onClick="checkPrice()"> -->
+
+      <!-- <input class="radio" name="coffee-type" type="text" placeholder="Value1" /> -->
+
+
+      <!-- <input type="text" id="radio-value-2" name="radio-value-2" /> -->
+
+
+      <div id="tab1">
+        <div class="accordion curly-font">How do you drink your coffee?</div>
+
+        <div>
+          <div class="panel radio-group radio-group-1">
+
+            <div class="radio radio-1 selection-box" data-value-1="Capsule" name="coffee-type">
+              <div class="curly-font box-title trying-try">Capsule</div>
+              <div> Compatible with Nespresso systems and similar brewers</div>
+            </div>
+
+            <!-- <input type="text" id="radio-value" name="radio-value" /> -->
+            <div class="radio radio-1 selection-box" data-value-1="Filter" name="coffee-type">
+              <div class="curly-font box-title">Filter</div>
+              <div>For pour over or drip methods like Aeropress, Chemex, and V60</div>
+            </div>
+
+            <div class="radio radio-1 selection-box" data-value-1="Espresso" name="coffee-type">
+              <div class="curly-font box-title"> Espresso</div>
+              <div>Dense and finely ground beans for an intense, flavorful experience</div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      <!-- FIRST OPTION    -->
+
+
+      <!-- SECOND OPTION    -->
+      <div id="tab2">
+        <div class="accordion curly-font">What type of coffee?</div>
+        <div>
+
+          <div class="panel radio-group radio-group-2">
+
+            <div class="radio radio-2 selection-box" id="trying-sum" data-value-2="Single origin" name="coffee-type">
+              <div class="curly-font box-title">Single origin</div>
+              <div> Distinct, high quality coffee from a specific family-owned farm</div>
+            </div>
+
+            <div class="radio radio-2 selection-box" data-value-2="Decaf" name="coffee-type">
+              <div class="curly-font box-title">Decaf</div>
+              <div>Just like regular coffee, except the caffeine has been removed</div>
+            </div>
+
+            <div class="radio radio-2 selection-box" data-value-2="Blended" name="coffee-type">
+              <div class="curly-font box-title">Blended</div>
+              <div>Combination of two or three dark roasted beans of organic coffees</div>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+      <!-- SECOND OPTION    -->
+
+
+      <!-- THIRD OPTION    -->
+      <div id="tab3">
+        <div class="accordion curly-font">How much would you like?</div>
+        <div>
+
+          <div class="panel radio-group radio-group-3">
+
+            <div class="radio radio-3 selection-box" data-value-3="250g" name="coffee-type">
+              <div class="curly-font box-title"> 250g</div>
+              <div>Perfect for the solo drinker. Yields about 12 delicious cups.</div>
+
+
+
+            </div>
+
+
+            <div class="radio radio-3 selection-box" data-value-3="500g" name="coffee-type">
+              <div class="curly-font box-title">500g</div>
+              <div>Perfect option for a couple. Yields about 40 delectable cups.</div>
+            </div>
+
+            <div class="radio radio-3 selection-box" data-value-3="1000g" name="coffee-type">
+              <div class="curly-font box-title">1000g</div>
+              <div>Perfect for offices and events. Yields about 90 delightful cups.</div>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+
+      <!-- THIRD OPTION    -->
+
+
+      <!-- FOURTH OPTION    -->
+      <div id="tab4">
+        <div class="accordion curly-font ">Want us to grind them?</div>
+        <div>
+
+          <div class="panel radio-group radio-group-4">
+
+            <div class="radio radio-4 selection-box" data-value-4="Wholebean" name="coffee-type">
+              <div class="curly-font box-title">Wholebean</div>
+              <div>Best choice if you cherish the full sensory experience</div>
+            </div>
+
+
+            <div class="radio radio-4 selection-box" data-value-4="Filter" name="coffee-type">
+              <div class="curly-font box-title">Filter</div>
+              <div> For drip or pour-over coffee methods such as V60 or Aeropress</div>
+            </div>
+
+            <div class="radio radio-4 selection-box" data-value-4="Cafetiére" name="coffee-type">
+              <div class="curly-font box-title">Cafetiére</div>
+              <div>Course ground beans specially suited for french press coffee</div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <!-- FOURTH OPTION    -->
+
+
+
+      <!-- FIFTH OPTION    -->
+      <div id="tab5">
+        <div class="accordion curly-font">How often should we deliver?</div>
+        <div>
+
+          <div class="panel radio-group radio-group-5">
+
+            <div class="radio radio-5 selection-box" data-value-5="every week" name="coffee-type">
+              <div class="curly-font box-title">Every week</div>
+              <div>$14.00 per shipment. Includes free first-class shipping.</div>
+            </div>
+
+
+            <div class="radio radio-5 selection-box" data-value-5="every 2 weeks" name="coffee-type">
+              <div class="curly-font box-title">Every 2 weeks</div>
+              <div>$17.25 per shipment. Includes free priority shipping.</div>
+            </div>
+
+            <div class="radio radio-5 selection-box" data-value-5="every month" name="coffee-type">
+              <div class="curly-font box-title">Every month</div>
+              <div> $22.50 per shipment. Includes free priority shipping.</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- FIFTH OPTION    -->
+      <!-- <input type="text" id="radio-value-1" name="radio-value-1" /> -->
+
+
+
+
+
+
+
+      <!-- FIRST OPTION    -->
+
+      <!-- 
+      <button class="accordion curly-font" id="what-am-i">How do you drink your coffee?</button>
+
+
+      <div class="panel radio-group collapse">
+
+        <div class="radio selection-box" data-value="One" name="coffee-type">
+          <div class="curly-font box-title trying-try">Capsule</div>
+          <div> Compatible with Nespresso systems and similar brewers</div>
+        </div>
+
+
+        <div class="radio selection-box" data-value="Two" name="coffee-type">
+          <div class="curly-font box-title">Filter</div>
+          <div>For pour over or drip methods like Aeropress, Chemex, and V60</div>
+        </div>
+
+        <div class="radio selection-box" data-value="Three" name="coffee-type">
+          <div class="curly-font box-title"> Espresso</div>
+          <div>Dense and finely ground beans for an intense, flavorful experience</div>
+        </div>
+
+      </div> -->
+
+
+      <!-- FIRST OPTION    -->
+
+
+      <!-- SECOND OPTION    -->
+
+      <!-- <button class="accordion curly-font"> What type of coffee?</button>
+
+      <div class="panel radio-group">
+
+        <div class="radio selection-box" id="trying-sum" data-value="One" name="coffee-type">
+          <div class="curly-font box-title">Single origin</div>
+          <label for="trying-sum" class="label-test">Checkbox value Comes here</label>
+          <div> Distinct, high quality coffee from a specific family-owned farm</div>
+        </div>
+
+        <input type="checkbox" id="try-try" />
+
+
+
+        <div class="radio selection-box" data-value="Two" name="coffee-type">
+          <div class="curly-font box-title">Decaf</div>
+          <div>Just like regular coffee, except the caffeine has been removed</div>
+        </div>
+
+        <div class="radio selection-box" data-value="Three" name="coffee-type">
+          <div class="curly-font box-title">Blended</div>
+          <div>Combination of two or three dark roasted beans of organic coffees</div>
+        </div>
+
+      </div> -->
+      <!-- SECOND OPTION    -->
+
+
+
+
+      <!-- THIRD OPTION    -->
+
+      <!-- <button class="accordion curly-font">How much would you like?</button>
+
+      <div class="panel radio-group">
+
+        <div class="radio selection-box" data-value="One" name="coffee-type">
+          <div class="curly-font box-title"> 250g</div>
+          <div>Perfect for the solo drinker. Yields about 12 delicious cups.</div>
+        </div>
+
+
+        <div class="radio selection-box" data-value="Two" name="coffee-type">
+          <div class="curly-font box-title">500g</div>
+          <div>Perfect option for a couple. Yields about 40 delectable cups.</div>
+        </div>
+
+        <div class="radio selection-box" data-value="Three" name="coffee-type">
+          <div class="curly-font box-title">1000g</div>
+          <div>Perfect for offices and events. Yields about 90 delightful cups.</div>
+        </div>
+
+      </div> -->
+
+      <!-- THIRD OPTION    -->
+
+
+
+
+      <!-- FORTH OPTION    -->
+      <!-- <button class="accordion curly-font"> Want us to grind them?</button>
+
+      <div class="panel radio-group">
+
+        <div class="radio selection-box" data-value="One" name="coffee-type">
+          <div class="curly-font box-title">Wholebean</div>
+          <div>Best choice if you cherish the full sensory experience</div>
+        </div>
+
+
+        <div class="radio selection-box" data-value="Two" name="coffee-type">
+          <div class="curly-font box-title">Filter</div>
+          <div> For drip or pour-over coffee methods such as V60 or Aeropress</div>
+        </div>
+
+        <div class="radio selection-box" data-value="Three" name="coffee-type">
+          <div class="curly-font box-title">Cafetiére</div>
+          <div>Course ground beans specially suited for french press coffee</div>
+        </div>
+
+      </div> -->
+      <!-- FORTH OPTION    -->
+
+
+
+      <!-- FIFTH OPTION    -->
+      <!-- 
+      <button class="accordion curly-font"> How often should we deliver?</button>
+
+      <div class="panel radio-group">
+
+        <div class="radio selection-box" data-value="One" name="coffee-type">
+          <div class="curly-font box-title">Every week</div>
+          <div>$14.00 per shipment. Includes free first-class shipping.</div>
+        </div>
+
+
+        <div class="radio selection-box" data-value="Two" name="coffee-type">
+          <div class="curly-font box-title">Every 2 weeks</div>
+          <div>$17.25 per shipment. Includes free priority shipping.</div>
+        </div>
+
+        <div class="radio selection-box" data-value="Three" name="coffee-type">
+          <div class="curly-font box-title">Every month</div>
+          <div> $22.50 per shipment. Includes free priority shipping.</div>
+        </div>
+
+      </div> -->
+      <!-- FIFTH OPTION    -->
+
+
+
+      <div class="order-summary">
+
+
+        <div>
+          <div class="order-sum-heading">Order Summary</div>
+
+          <div class="curly-font order-sum"> “I drink my coffee as<input type="text" id="radio-value-1"
+              name="radio-value-1" class="input-styling curly-font" />,
+
+            with a <input type="text" id="radio-value-2" name="radio-value-2" class="input-styling curly-font" />
+
+            type of bean. <input type="text" id="radio-value-3" name="radio-value-3"
+              class="input-styling curly-font" />,
+
+            grinded <input type="text" id="radio-value-4" name="radio-value-4" class="input-styling curly-font" /> style
+            and
+
+            sent to me <input type="text" id="radio-value-5" name="radio-value-5" class="input-styling curly-font" />."
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="center-button">
+        <button class="new-button new-button-right curly-font" id="myBtn">
+          Create your plan
+        </button>
+      </div>
+
+
+
+
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+
+
+          <!-- <span class="close">&times;</span> -->
+
+          <div class="modal-sum">
+
+            <div class="center-sum">
+              <div class="curly-font modal-sum-text">Order Summary</div>
+            </div>
+          </div>
+          <div class="curly-font modal-order-sum"> “I drink my coffee as<input type="text" id="radio-value-11"
+              name="radio-value-11" class="input-styling curly-font" />,
+
+            with a <input type="text" id="radio-value-22" name="radio-value-22" class="input-styling curly-font" />
+
+            type of bean. <input type="text" id="radio-value-33" name="radio-value-33"
+              class="input-styling curly-font" />,
+
+            grinded <input type="text" id="radio-value-44" name="radio-value-44" class="input-styling curly-font" />
+            style and
+
+            sent to me <input type="text" id="radio-value-55" name="radio-value-55" class="input-styling curly-font" />.
+          </div>
+
+
+          <div class="checkout-modal">
+            <div class="correct">Is this correct? You can proceed to checkout or go back to plan selection if
+              something
+              is off. Subscription discount codes can also be redeemed at the checkout.</div>
+
+            <div>
+              <div class="curly-font final-checkout"> $28.80/mo <span><button class="checkout-button curly-font">Checkout</button></span> </div>
+
+              
+
+            </div>
+          </div>
+
+        </div>
+        <!-- Modal content -->
+
+      </div>
+      <!-- End modal -->
+
+    </div>
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+  <footer>
+
+
+    <div class="footer-container">
+
+      <div class="img-cont"><img src="../starter-code/assets/shared/desktop/logo-copy.svg" alt="" class="footer-logo">
+      </div>
+
+      <div class="links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="plan.html">Create your plan</a></li>
+        </ul>
+      </div>
+
+      <div class="social-media">
+        <div class="individual-links"><a href="https://www.facebook.com/"><img
+              src="../starter-code/assets/shared/desktop/icon-facebook.svg" alt="" class="social-media-icons"></a></div>
+        <div class="individual-links"><a href="https://twitter.com/"><img
+              src="../starter-code/assets/shared/desktop/icon-twitter.svg" alt="" class="social-media-icons"></a></div>
+        <div class="individual-links"><a href="https://www.instagram.com/yon.dre"><img
+              src="../starter-code/assets/shared/desktop/icon-instagram.svg" alt="" class="social-media-icons"></a>
+        </div>
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="modal.js"></script>
+  <script src="app.js"></script>
+
+
+  <!--onnnnneee-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+
+</body>
+
+</html>

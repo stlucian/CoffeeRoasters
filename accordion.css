@@ -1,0 +1,195 @@
+:root {
+  --verydarkblue: #2C343E;
+  --darkcyan: #0E8784;
+  /* Dark Cyan */
+  --darkgreyblue: #333D4B;
+  /* Dark Grey Blue */
+  --paleorange: #FDD6BA;
+  /* Pale Orange */
+  --background-cream: #FEFCF7;
+  /* Light Cream (BG) */
+  --grey: #83888F;
+  /* Grey */
+  --white: #FEFCF7;
+  --lightgrey: #F4F1EB;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+
+.accordion {
+  background-color: var(--white);
+  color: var(--grey);
+  cursor: pointer;
+  padding: 18px;
+  padding-bottom: 30px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-size: 30px;
+}
+
+.side-button {
+  color: #333D4B;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 20px 20px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+.toggle-tab {
+  opacity: 0.5;
+}
+
+.toggle-tab:hover {
+  opacity: 1;
+}
+
+
+/* Style the accordion panel. Note: hidden by default */
+
+.panel {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  /* padding: 0 18px; */
+  /* background-color: white; */
+  display: flex;
+  font-size: 18px;
+  /* display: none; */
+  justify-content: space-between;
+  /* background-color: palevioletred; */
+  overflow: hidden;
+}
+
+.radio.selected {
+  background-color: var(--darkcyan);
+  color: var(--white);
+}
+
+.radio:hover {
+  background-color: var(--paleorange);
+  color: black;
+}
+
+.radio {
+  background-color: var(--lightgrey);
+  cursor: pointer;
+}
+
+input[type=text] {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid rgb(231, 231, 231);
+  outline: none;
+  padding-bottom: 0;
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+}
+
+.input-styling {
+  color: var(--darkcyan);
+  width: 130px;
+}
+
+.left-right-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  /* flex: 2; */
+}
+
+.test-1 {
+  /* background-color: red; */
+  flex: 2;
+}
+
+.side-center {
+  /* display: flex; */
+  padding-left: 70px;
+}
+
+.number-padding {
+  padding-right: 8px;
+  color: var(--darkcyan);
+}
+
+.test-2 {
+  flex: 4;
+}
+
+.selection-box {
+  padding: 90px 20px;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+.box-title {
+  margin-top: -60px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.order-summary {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 250px;
+  border-radius: 7px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.order-sum-heading {
+  color: var(--grey);
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.order-sum {
+  font-size: 25px;
+}
+
+.toggle-tab {
+  background-color: var(--background-cream);
+}
+
+@media(max-width: 1000px) {
+  .left-side {
+    display: none;
+  }
+  .radio:hover {
+    background-color: var(--darkcyan);
+    color: white;
+  }
+}
+
+@media(max-width: 650px) {
+  .radio-group {
+    flex-direction: column;
+  }
+  .radio:hover {
+    background-color: var(--darkcyan);
+    color: white;
+  }
+  .input-styling {
+    width: 100px;
+    font-size: 1px;
+  }
+  input[type=text] {
+    font-size: 16px;
+  }
+  .order-sum {
+    font-size: 23px;
+  }
+  .selection-box {
+    padding: 90px 20px;
+    margin: 10px 0;
+  }
+}
